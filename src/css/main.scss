@@ -1,0 +1,21 @@
+a {
+  text-decoration: none;
+  color: var(--Cyan);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+i {
+  display: inline-block;
+  width: 2rem;
+  text-align: center;
+  color: var(--Cyan);
+}
+.skills_icon {
+  width: 1rem;
+  height: 1rem;
+  object-fit: cover;
+  transform: translateY(2px);
+}

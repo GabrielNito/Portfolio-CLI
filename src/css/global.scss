@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+@import url("https://www.nerdfonts.com/assets/css/webfont.css");
+
+:root {
+  --Text: #eff1f5;
+  --Base: #4c4f69;
+  --Accent: #f4b8e4;
+  --Cyan: #99d1db;
+  --Green: #a6d189;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Code", monospace;
+  scroll-behavior: smooth;
+  color: var(--Text);
+  font-weight: 600;
+}
+
+body {
+  background-image: url("/wallpaper.png");
+  background-size: cover;
+}

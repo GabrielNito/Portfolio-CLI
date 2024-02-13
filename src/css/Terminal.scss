@@ -1,0 +1,35 @@
+#terminal {
+  width: calc(100vw - 40px);
+  height: calc(100vh - 40px);
+  margin: 20px;
+  padding: 20px;
+  border: solid 2px var(--Accent);
+  border-radius: 20px;
+  background: var(--Base);
+  opacity: 0.8;
+  font-size: 1rem;
+  color: var(--Text);
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  .terminal_input {
+    display: flex;
+
+    p:nth-child(1),
+    pre:nth-child(5) {
+      color: var(--Accent);
+    }
+    pre {
+      color: var(--Text);
+    }
+    p:nth-child(3) {
+      color: var(--Cyan);
+    }
+
+    input {
+      all: unset;
+      width: 100%;
+    }
+  }
+}
